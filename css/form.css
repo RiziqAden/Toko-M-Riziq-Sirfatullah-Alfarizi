@@ -1,0 +1,156 @@
+* {
+    font-family: "Poppins", sans-serif;
+
+}
+/*Navbar*/
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 5%;
+    background-color: #1D2B53;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+
+.navbar .navbar-nav a, h1 {
+    color: hsl(160, 100%, 99%);
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    display: inline-block;
+    margin: 0.5rem;
+    font-size: 1.2rem;
+    
+}
+
+.navbar .navbar-nav a:hover {
+    color: #FAEF5D;
+}
+
+.navbar .navbar-nav a::after {
+    content: "";
+    display: block;
+    padding-bottom: 0.5rem;
+    border-bottom: 0.1rem solid #FAEF5D;
+    transform: scaleX(0);
+}
+
+.navbar .navbar-nav a:hover::after {
+    transform: scaleX(0.7);
+    transition: 0.2s linear;
+}
+/*Navbar End*/
+
+
+.container {
+    width: 80%;
+    margin: 10px auto;
+}
+
+.center {
+    text-align: center;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.align-right {
+    float: right;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+button {
+    background-color: #F3B664;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 6px 4px;
+    cursor: pointer;
+}
+button a {
+    color: white; 
+    text-decoration: none; 
+}
+
+
+
+fieldset {
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+legend {
+    color: #000;
+    font-size: 30px;
+    padding: 0 20px;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+th {
+    background-color: #87b5ee;
+}
+
+
+.input {
+    margin-bottom: 10px;
+}
+
+.input label {
+    display: block;
+    padding-bottom: 5px;
+}
+
+.input input {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.input button {
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.input select {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.TypePengguna{
+    font-size: 28px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+
