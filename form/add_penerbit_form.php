@@ -46,7 +46,7 @@
                     <input type="text" name="telepon" placeholder="Telepon" required>
                 <div class="input">
                     <button type="submit" name="tambah">Tambah</button>
-                    <button type="reset" onclick="window.location.href='pengadaan.php'">Batal</button>
+                    <button type="reset" onclick="window.location.href='../pengadaan.php'">Batal</button>
                 </div>
             </form>
         </fieldset>
